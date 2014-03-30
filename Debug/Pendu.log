@@ -1,0 +1,28 @@
+﻿La génération a démarré 3/30/2014 1:33:15 PM.
+     1>Projet "C:\Users\Mousse\Documents\Visual Studio 2012\Projects\Pendu\Pendu\Pendu.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt Dictionnaire.c Main.c
+         Main.c
+     1>c:\users\mousse\documents\visual studio 2012\projects\pendu\pendu\main.c(21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>c:\users\mousse\documents\visual studio 2012\projects\pendu\pendu\main.c(22): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>c:\users\mousse\documents\visual studio 2012\projects\pendu\pendu\main.c(65): warning C4020: 'Gagne' : paramètres réels trop nombreux
+     1>c:\users\mousse\documents\visual studio 2012\projects\pendu\pendu\main.c(97): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : voir la déclaration de 'scanf'
+     1>c:\users\mousse\documents\visual studio 2012\projects\pendu\pendu\main.c(187): warning C4029: la déclaration de la liste de paramètres formels est différente de la définition
+         Dictionnaire.c
+     1>c:\users\mousse\documents\visual studio 2012\projects\pendu\pendu\dictionnaire.c(14): warning C4244: 'fonction' : conversion de 'time_t' en 'unsigned int', perte possible de données
+     1>c:\users\mousse\documents\visual studio 2012\projects\pendu\pendu\dictionnaire.c(17): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : voir la déclaration de 'fopen'
+         Génération de code en cours...
+     1>c:\users\mousse\documents\visual studio 2012\projects\pendu\pendu\dictionnaire.c(46): warning C4716: 'CompteNombreMots' : doit retourner une valeur
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mousse\Documents\Visual Studio 2012\Projects\Pendu\Debug\Pendu.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Mousse\Documents\Visual Studio 2012\Projects\Pendu\Debug\Pendu.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mousse\Documents\Visual Studio 2012\Projects\Pendu\Debug\Pendu.lib" /MACHINE:X86 Debug\Dictionnaire.obj
+         Debug\Main.obj
+         Pendu.vcxproj -> C:\Users\Mousse\Documents\Visual Studio 2012\Projects\Pendu\Debug\Pendu.exe
+     1>Génération du projet "C:\Users\Mousse\Documents\Visual Studio 2012\Projects\Pendu\Pendu\Pendu.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:03.47
